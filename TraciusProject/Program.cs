@@ -51,4 +51,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/h", () => "Hello Tracius API");
+
 app.Run();
